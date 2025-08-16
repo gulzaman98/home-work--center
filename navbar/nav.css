@@ -1,0 +1,48 @@
+.container{
+    height: 100px;
+ 
+    width: 100%;
+
+}
+.header .container .navbar{
+    height: inherit;
+    width: 80%;
+    
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header .container .navbar .logo{
+    height: inherit;
+    width: 15%;
+   
+}
+
+.header .container .navbar .nav{
+    /* border: 2px solid black; */
+    height: inherit;
+    width: 75%;
+    margin-top: 20px;
+   
+    
+}
+
+.header .container .navbar h2 {
+    text-align: center;
+    position: relative;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.header .container .navbar .nav ul li {
+    display: inline;
+    padding: 10px;
+    margin-left: 15px;
+    font-size: 30px;
+}
+
+.header .container .navbar .nav ul li:hover{
+    box-shadow: 0 0 5px purple;
+}
