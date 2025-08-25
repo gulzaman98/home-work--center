@@ -1,25 +1,26 @@
-let vowels = prompt("Enter your vowels")
+let vowel = prompt("Enter your Alphabet");
 
-switch(vowels){
+switch(vowel){
     case "a":
-        document.write("vowels")
+        document.write("vowel")
         break;
          case "e":
-        document.write("vowels")
+        document.write("vowel")
         break;
+      
          case "i":
-        document.write("vowels")
+        document.write("vowel")
         break;
+      
          case "o":
-        document.write("vowels")
+        document.write("vowel")
         break;
+      
          case "u":
-        document.write("vowels")
+        document.write("vowel")
         break;
-
-
-     
-     default: 
-     document.write("consonant")  
+      default:
+        document.write("consonant")
+        break;
+      
 }
-
