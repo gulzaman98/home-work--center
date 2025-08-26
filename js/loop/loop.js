@@ -26,10 +26,10 @@
 
 // DO WHILE LOOP 
 
-let i = 6;
-do{
-    document.write(i , "<br>")
-}while(i <=5)
+// let i = 6;
+// do{
+//     document.write(i , "<br>")
+// }while(i <=5)
 
 //     document.write( i ,"This is for loop <br>")
 // }
@@ -42,12 +42,33 @@ do{
 
 // Do while loop
 
-let a = 1
-do{
-    if(a % 2 != 0){
-        document.write( a ,"<br>")
-    }
-    // document.write( a ," : This is a do while loop <br>")
-    a++
-}while(a <= 10)
+// let a = 1
+// do{
+//     if(a % 2 != 0){
+//         document.write( a ,"<br>")
+//     }
+//     // document.write( a ," : This is a do while loop <br>")
+//     a++
+// }while(a <= 10)
 
+
+
+let correctPassword = 123456;
+let maxAttempt = 3;
+let success = false;
+
+for(let i = 0; i < maxAttempt; i++){
+    let userInput = +prompt("Enter your password")
+
+    if(userInput === correctPassword){
+        document.write("Log in successfully")
+        success = true;
+        break;
+    }else{
+        alert("Incorrect Password" , (maxAttempt - (i+1)));
+    }
+
+    if(!sucess){
+        alert("Account Locked")
+    } 
+}
