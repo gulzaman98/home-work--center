@@ -31,13 +31,22 @@ let fruits = [
   "Jujube","Loquat","Mandarin","Nectarine","Mangosteen"
 ]
 
-// for (let i = 0 ; i < fruits.length ; i++){
-//     document.write((i+1)," :  " , fruits[i] , "<br>")
-// }
-
-let i = 0;
-while(i < fruits.length){
-    document.write((i + 1), " ", fruits[i] , "<br>")
-
-    i++
+for (let i = 0 ; i < fruits.length ; i++){
+    document.write((i+1)," :  " , fruits[i] , "<br>")
 }
+
+
+
+//  ARRAY BY HTML TABLE 
+
+
+// let table = document.getElementById("fruit-table")
+
+// for(let i = 0 ; i < fruits.length; i++){
+//   let row = table.insertRow()
+//   let cell1 = row.insertCell(0)
+//   let cell2 = row.insertCell(1)
+
+// cell1.innerHTML = i + 1 ;
+// cell2.innerHTML = fruits[i]
+// }
