@@ -15,6 +15,26 @@
 
 // fruit.push("Pine Apple")
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //  LOP FOR LOOP
 
 
@@ -34,6 +54,18 @@
 // for (let i = 0 ; i < fruits.length ; i++){
 //     document.write((i+1)," :  " , fruits[i] , "<br>")
 // }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -64,6 +96,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // MUlti-Dimensional Array
 
 // let courses = [
@@ -72,23 +123,155 @@
 //   ["HTML2","CSS2" ,"JS2" ,"BOTSTRAP2" ,"JQUERY2"],
 // ]
 
-// document.write(courses[0][3] , "<br>")
+// document.write(courses[0][3] , "<br>" , courses[1][2],"<br>")
+// for(let i = 0 ; i < courses.length ; i++){
+//     for(let j = 0 ; j < courses[i].length ; j++){
+//         document.write(courses[i][j] )
+//     }
+//     document.write("<br>")
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 // Methodss of Array
 
-// let color = ["Red","Green","Yellow"]
+let colors = ["Red", "Green", "Yellow"];
+let colors2 = ["aqua", "indigo", "Khaki"]
+let merge = colors.concat(colors2)
 
-// color.push("purple")
+// colors.push("Blue");
+// document.write("1 :  colors.push(Blue) =>  ", colors, "<br>", "Length of Colors Array :", colors.length, "<br>");
 
-// document.write(color , "<br>")
+// colors.pop()
+// document.write(" 2 : colors.pop() =>  ", colors, "<br>", "Length of Colors Array :", colors.length, "<br>");
 
-let num1 = [1,2,3,5,6,8,9,45,7,1,4,7]
+// colors.shift()
+// document.write(" 3 : colors.shift() =>  ", colors, "<br>", "Length of Colors Array :", colors.length, "<br>");
 
-num1.sort(num1)
-document.write(num1 , "<br>") 
+// colors.unshift("Navy")
+// document.write(" 4 : colors.unshift(Navy) =>  ", colors, "<br>", "Length of Colors Array :", colors.length, "<br>");
 
-// for(num2 of num1){
-//   document.write(number , "<br>")
-// }
+// colors.join(" ")
+// document.write(" 5 : colors.join() =>  ", colors.join(" "), "<br>", "Length of Colors Array :", colors.length, "<br>");
+
+// colors.concat(merge)
+// document.write(" 6 : colors.concat(colors2) =>  ", merge, "<br>", "Length of Colors Array :", merge.length, "<br>");
+
+// colors.sort()
+// document.write(" 7 : colors.sort() =>  ", colors, "<br>", "Length of Colors Array :", colors.length, "<br>");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let students = [
+  ["Ali", " ", 15, " ", "9th", " ", "A"],
+  ["Ahmed", " ", 16, " ", "10th", " ", "B"],
+  ["Sara", " ", 14, " ", "8th", " ", "A"],
+  ["Fatima", " ", 15, " ", "9th", " ", "A+"],
+  ["Hassan", " ", 17, " ", "11th", " ", "C"],
+  ["Bilal", " ", 16, " ", "10th", " ", "B+"],
+  ["Ayesha", " ", 15, " ", "9th", " ", "A"],
+  ["Usman", " ", 14, " ", "8th", " ", "A+"],
+  ["Kiran", " ", 16, " ", "10th", " ", "B"],
+  ["Zara", " ", 17, " ", "11th", " ", "A"],
+  ["Hamza", " ", 15, " ", "9th", " ", "A+"],
+  ["Nida", " ", 16, " ", "10th", " ", "B"],
+  ["Farhan", " ", 14, " ", "8th", " ", "C"],
+  ["Laiba", " ", 15, " ", "9th", " ", "A"],
+  ["Adnan", " ", 17, " ", "11th", " ", "B+"],
+  ["Sana", " ", 16, " ", "10th", " ", "A+"],
+  ["Moiz", " ", 15, " ", "9th", " ", "B"],
+  ["Iqra", " ", 14, " ", "8th", " ", "A"],
+  ["Shahid", " ", 16, " ", "10th", " ", "C"],
+  ["Maryam", " ", 17, " ", "11th", " ", "A+"]
+]
+
+document.write("<table border='1' cellspacing='0' cellpadding='5>'");
+
+document.write("<tr>")
+document.write("<th>Name</th>")
+document.write("<th>Age</th>")
+document.write("<th>Class</th>")
+document.write("<th>Grade</th>")
+document.write("</tr>")
+
+for (let i = 0; i < students.length; i++) {
+  let grade =  students[i][6];
+  let bgColor = "";
+
+  if(grade === "A+"){
+    bgColor = "LightGreen"
+  }
+  else if(grade === "A"){
+    bgColor = "Khaki"
+  }
+  else if(grade === "B"){
+    bgColor = "aqua"
+  }
+  else if(grade === "C"){
+    bgColor = "lightcoral"
+  }
+  document.write("<tr style='background-color:" + bgColor + "'>")
+  for (let j = 0; j < students[i].length; j++) {
+    if(students[i][j] !== " ")
+    document.write("<td>" + students[i][j] + "</td>")
+  }
+  document.write("</tr>")
+}
+
+document.write("</table>")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
