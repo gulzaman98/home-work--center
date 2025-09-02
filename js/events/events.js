@@ -1,0 +1,1 @@
+let myapp = (nam1 ,nam2)=>document.write(nam1+nam2)
