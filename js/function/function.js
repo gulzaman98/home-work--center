@@ -1,8 +1,8 @@
-// let myName = prompt("enter your name")
+let std1 = prompt("Enter your good name")
 
-// function myFun(myName){
-//     document.write("Hello" + " " + myName)
-// }
-// myFun(myName)
+function stdfun(){
+    
+    document.write("Hello" , " " , std1)
+}
 
-
+stdfun()
