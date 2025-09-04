@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 let myapp = (nam1 ,nam2)=>document.write(nam1+nam2)
 
+=======
+let btn = document.getElementById("btn")
+let para = document.getElementById("para")
+
+// btn.onclick = ()=> document.getElementById("para").innerHTML = "Hello"
+// btn.onmouseover = ()=> document.getElementById("para").style.color = "red"
+>>>>>>> 35a1b9621fe02152f8257f62d06dc745d58e9092
 
 
 btn.addEventListener("click" , ()=>{
@@ -16,6 +24,7 @@ btn.addEventListener("click" , function(){
 btn.onclick = ()=>document.getElementById("para").innerHTML = "You Click the button"
 btn.onmouseover = ()=>document.getElementById("para").style . color = "red"
 
+<<<<<<< HEAD
 
 
 window.onresize=()=>{
@@ -27,3 +36,5 @@ window.onload=()=>{
     console.log("welcome gulzaman")
 }
 
+=======
+>>>>>>> 35a1b9621fe02152f8257f62d06dc745d58e9092
