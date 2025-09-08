@@ -42,26 +42,26 @@
 
 // // }
 
-// let group = +prompt("Enter your age group number (1=child , 2=teenager , 3=adult , 4=senior)")
-// switch (group){
-//     case 1:
-//         document.write("<h2 class=monday> Ticket Price: 200 PKR (Child age)")
-//         break;
+let group = +prompt("Enter your age group number (1=child , 2=teenager , 3=adult , 4=senior)")
+switch (group){
+    case 1:
+        document.write("<h2 class=monday> Ticket Price: 200 PKR (Child age)")
+        break;
 
-//         case 2:
-//             document.write("<h2 class=tuesday> Ticket price : 500 PKR (Teen Ager)")
-//             break;
+        case 2:
+            document.write("<h2 class=tuesday> Ticket price : 500 PKR (Teen Ager)")
+            break;
 
-//             case 3:
-//                 document.write("<h2 class=wednesday> Ticket price : 1000 PKR (Adult)")
-//                 break;
-//                 case 4:
-//                     document.write("<h2 class=thursday> Ticket price : 1200 PKR ()Senior")
-//                     break;
+            case 3:
+                document.write("<h2 class=wednesday> Ticket price : 1000 PKR (Adult)")
+                break;
+                case 4:
+                    document.write("<h2 class=thursday> Ticket price : 1200 PKR ()Senior")
+                    break;
 
-//                     default:
-//                         document.write(" <h2 class=friday> Invalid Age Number")
-// }
+                    default:
+                        document.write(" <h2 class=friday> Invalid Age Number")
+}
     
 
 
