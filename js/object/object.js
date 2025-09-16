@@ -6,3 +6,4 @@ let student = {
 }
 
 document.write(student["Name"] , "<br>" , [Age])
+
