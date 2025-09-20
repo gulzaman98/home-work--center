@@ -73,9 +73,9 @@ let cnic = {
     ExpireDAte: "17-09-2027",
 }
 
-document.write(cnic.Name, "<br>")
-document.write(cnic.FatherName, "<br>")
-document.write(cnic.CNIC, "<br>")
+// document.write(cnic.Name, "<br>")
+// document.write(cnic.FatherName, "<br>")
+// document.write(cnic.CNIC, "<br>")
 
 
 
@@ -98,7 +98,24 @@ let cnic1 = {
 // For In loop
 
 
-for(let key in cnic){
-    document.write(key , " : " , cnic[key] ,"<br>")
+// for(key in cnic){
+//     document.write(key , " : " , cnic[key] , "<br>")
+// }
+
+
+// document.write(cnic1.Name)
+
+
+let tablebody = document.getElementById("cnicTable")
+
+for( let key in cnic1){
+    let row = "<tr><td>" + key + "</td><td>" + cnic1[key] + "</td></tr>";
+    tablebody.innerHTML += row;
 }
 
+// let tablebody = document.getElementById("cnicTable");
+
+// for (let key in cnic1) {
+//     let row = "<tr><td>" + key + "</td><td>" + cnic1[key] + "</td></tr>";
+//     tablebody.innerHTML += row;
+// }

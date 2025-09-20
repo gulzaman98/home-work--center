@@ -31,9 +31,9 @@ window.onresize=()=>{
     console.log("Window is resize")
 }
 
+
 window.onload=()=>{
     alert("Welcome gulzaman arain")
     console.log("welcome gulzaman")
+
 }
-
-
