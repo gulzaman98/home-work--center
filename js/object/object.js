@@ -113,9 +113,17 @@ for( let key in cnic1){
     tablebody.innerHTML += row;
 }
 
+<<<<<<< HEAD
 // let tablebody = document.getElementById("cnicTable");
 
 // for (let key in cnic1) {
 //     let row = "<tr><td>" + key + "</td><td>" + cnic1[key] + "</td></tr>";
 //     tablebody.innerHTML += row;
 // }
+=======
+<<<<<<< HEAD
+document.write(student["Name"] , "<br>" , [Age])
+
+=======
+>>>>>>> 41a22a5ec8c61c006f0d2f815007c80f10c76ad4
+>>>>>>> c7a0a3f02cfd3cae90fb939fd90c9188fb50063b

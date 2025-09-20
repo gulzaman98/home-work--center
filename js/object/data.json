@@ -1,0 +1,28 @@
+[
+    {
+        "student-id" : 1,
+        "Card_Title" : "Honda City",
+        "Card_Price" : "12345600",
+        "student-batch" : "tts",
+        "student-course" : "cpism"
+        
+    },
+    {
+        "student-id" : 1,
+        "Card_Title" : "Honda City",
+        "Card_Price" : "12345600",
+        "student-batch" : "tts",
+        "student-course" : "cpism"
+        
+    },
+    {
+        "student-id" : 1,
+        "Card_Title" : "Honda City",
+        "Card_Price" : "12345600",
+        "student-batch" : "tts",
+        "student-course" : "cpism"
+        
+    }
+
+    
+]

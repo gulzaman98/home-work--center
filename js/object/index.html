@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="main" style="display: flex; justify-content: space-evenly; align-items: center;" id="row">
+
+
+    </div>
+
+
+    <script>
+        let html = "";
+        fetch('data.json')
+            .then(response => response.json())
+            .then(json => {
+
+                for (data of json) {
+                    html += `
+              <div class="box" style="width: 250px; height: 300px; border: 2px solid black; ">
+            <div class="card">
+                <img src="/images/car 2.jpg" alt="" style="width: 100%;">
+                <h3>Card Title: ${data.Card_Title} </h3>
+                <h3>Card Price : ${data.Card_Price} </h3>
+            </div>
+
+        </div>
+            `
+                }
+
+                document.getElementById("row").innerHTML = html
+
+            })
+    </script>
+</body>
+
+</html>
