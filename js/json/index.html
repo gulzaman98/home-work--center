@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../Assets/fontawesome/css/all.min.css">
+</head>
+
+<body>
+    <!-- 
+    <div class="main" id="row">
+       
+        <div id="output"></div>
+
+    </div> -->
+
+    <!-- Show hide password -->
+
+    <form>
+        <input type="password" placeholder="Enter Your Password" id="pass" style="position: relative; width: 250px;">
+        <i class="fa-solid fa-eye-slash" id="icon"></i>
+    </form>
+
+    <script>
+
+        //    Data Fetch in data json file with cards 
+
+        // let html = "";
+        // fetch('data2.json')
+        //     .then(response => response.json())
+        //     .then(json => {
+
+        //         for (data of json) {
+        //             html += `
+        //             <div class="box">
+        //     <div class="card">
+        //         <img src="/images/car2.jpg" alt=""">
+        //         <h3>car title: ${data.car_title} </h3>
+        //         <h3>car price: ${data.car_price} </h3> 
+        //     </div>
+        // </div>
+        //             `
+
+        //         }
+
+        //         document.getElementById("row").innerHTML = html
+        //     })  
+
+        // Data Fetch single object in data json file
+
+        // fetch('data.json')
+        // .then(response => response.json())
+        // .then( data => {
+        //     let student = "";
+
+        //     for(data of data){
+        //         student += `<p> Name : ${data.Name} , Age : ${data.Age} , Roll No : ${data.Roll_No}</p> `
+        //     }
+
+        //     document.getElementById("output").innerHTML = student
+        // })
+
+        // Show hide password with icon
+
+        let eye = document.getElementById("icon")
+        eye.addEventListener("click", function (e) {
+            e.preventDefault()
+
+            let pass = document.getElementById("pass")
+
+            if (pass.type == "password") {
+                pass.type = "text"
+                eye.classList = "fa-solid fa-eye"
+            }
+            else {
+                pass.type = "password"
+                eye.classList = "fa-solid fa-eye-slash"
+            }
+        })
+    </script>
+</body>
+
+</html>

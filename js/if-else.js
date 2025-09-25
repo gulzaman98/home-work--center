@@ -1,17 +1,16 @@
-// let  nationality =prompt("Enter your nationality")
-// let  age =prompt("Enter your age")
+let  nationality =prompt("Enter your nationality")
+let  age =prompt("Enter your age")
 
-// if(nationality == "pakistani"){
-//     if(age >= 18){
-//         document.write("You are eligible to vote. Vote successfully!")
-//     }
-//     else{
-//         document.write("Your age is not allowed for voting.")
-//     }
-// }
-// else{
-//     document.write("Only allow in pakistani")
-// }
+if(nationality == "pakistani"){
+    if(age >= 18){
+        document.write("You are eligible to vote. Vote successfully!")
+    }
+    else{
+        document.write("Your age is not allowed for voting.")
+    }
+}else{
+    document.write("Only allow in pakistani")
+}
 
 
 // let num1 = +prompt("Enter your first number")
@@ -153,22 +152,22 @@
 //     document.write("Zero number ")
 // }
 
-let num1 = +prompt("Enter your first number ")
-let num2 = +prompt("Enter your second number")
-let num3 = + prompt("Enter your third number")
+// let num1 = +prompt("Enter your first number ")
+// let num2 = +prompt("Enter your second number")
+// let num3 = + prompt("Enter your third number")
 
-if(num1 > num2 && num1 > num3){
-    document.write("Number 1 is greater")
-}
+// if(num1 > num2 && num1 > num3){
+//     document.write("Number 1 is greater")
+// }
 
-else if(num2 > num3 && num2 > num1){
-    document.write("Number 2 is greater")
-}
+// else if(num2 > num3 && num2 > num1){
+//     document.write("Number 2 is greater")
+// }
 
-else if(num3 > num2 && num3 > num1){
-    document.write("Number 3 is greater")
-}
+// else if(num3 > num2 && num3 > num1){
+//     document.write("Number 3 is greater")
+// }
 
-else{
-    document.write("All numbers are equal")
-}
+// else{
+//     document.write("All numbers are equal")
+// }
