@@ -4,6 +4,7 @@
 
 
 
+
 // let para = document.getElementsByName(`p`)
 // para[0].innerHTML = "Hello World"
 // para[1].style.color = "red"
@@ -67,3 +68,14 @@ btn.addEventListener("click", function () {
 //     }
 //     image.src = images[index]
 // })
+
+let para = document.getElementsByName(`p`)
+para[0].innerHTML = "Hello World"
+para[1].style.color = "red"
+
+
+
+
+
+
+
