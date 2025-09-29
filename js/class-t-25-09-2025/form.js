@@ -14,6 +14,7 @@ form.addEventListener("submit" , function(e){
 
     if(name == "" || email == "" || pass == ""){
         alert("Please fill out all the fields")
+        return;
     }
 
     let user = JSON.parse(localStorage.getItem("users")) || [];
@@ -24,5 +25,9 @@ form.addEventListener("submit" , function(e){
 
     this.reset()
 })
+
+
+
+
 
 
