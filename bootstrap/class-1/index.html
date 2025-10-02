@@ -1,16 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Hello World</h1>
+    <h1 style="text-align: center;">First Bootstrap Class</h1>
+
+    <div class="container">
+        <div class="row" style="height: 50px;">
+            <div class="col-2 d-flex justify-content-center align-items-center"
+                style="background: rgb(10, 87, 112); color: white; font-weight: bold;">Home</div>
+            <div class="col-2 d-flex justify-content-center align-items-center"
+                style="background: rgb(10, 87, 112); color: white; font-weight: bold">About</div>
+            <div class="col-2 d-flex justify-content-center align-items-center"
+                style="background: rgb(10, 87, 112); color: white; font-weight: bold">Services</div>
+            <div class="col-2 d-flex justify-content-center align-items-center"
+                style="background: rgb(10, 87, 112); color: white; font-weight: bold">Portfolio</div>
+            <div class="col-2 d-flex justify-content-center align-items-center"
+                style="background: rgb(10, 87, 112); color: white; font-weight: bold">Blog</div>
+            <div class="col-2 d-flex justify-content-center align-items-center"
+                style="background: rgb(10, 87, 112); color: white; font-weight: bold">Contact</div>
+
+
+        </div>
+    </div>
+
+
+    <div class="container-fluid">
+        <div class="row" style="min-height: 500px;">
+            <!-- Side bar -->
+            <div class="col-3" style="background: #f8f9fa; border-right: 2px solid #ddd;">
+                <h4 class="p-3">Sidebar</h4>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Dashboard</li>
+                    <li class="list-group-item">Profile</li>
+                    <li class="list-group-item">Setting</li>
+                    <li class="list-group-item">Logout</li>
+                </ul>
+            </div>
+
+            <!-- Main content -->
+
+            <div class="col-9 p-4">
+                <h4>Main Content Area</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, recusandae
+                    dolorem. Nihil illo voluptate corrupti iure doloribus harum, tempore nam! Laudantium
+                    dicta omnis inventore esse, quaerat odio voluptatum quo optio.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, recusandae
+                    dolorem. Nihil illo voluptate corrupti iure doloribus harum, tempore nam! Laudantium
+                    dicta omnis inventore esse, quaerat odio voluptatum quo optio.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, recusandae
+                    dolorem. Nihil illo voluptate corrupti iure doloribus harum, tempore nam! Laudantium
+                    dicta omnis inventore esse, quaerat odio voluptatum quo optio.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, recusandae
+                    dolorem. Nihil illo voluptate corrupti iure doloribus harum, tempore nam! Laudantium
+                    dicta omnis inventore esse, quaerat odio voluptatum quo optio.</p>
+            </div>
 
 
 
-<script src="../bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+        </div>
+    </div>
+
+    <!-- Sliders -->
+    <div class="container my-5">
+        <h3 class="text-center mb-4">Our Sliders</h3>
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        </div>
+    </div>
+
+
+
+
+    <script src="../bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
