@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
 
+    /* Navbar */
 }
 
 .container {
@@ -90,9 +91,14 @@ a:hover {
     margin-right: 20px;
 }
 
-/* About section */
+/* Home section */
 
-.about-section {
+
+
+
+.home-section {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -102,23 +108,23 @@ a:hover {
 
 }
 
-.about-text {
+.home-text {
     flex: 1;
     padding: 40px;
 }
 
-.about-text h1 {
+.home-text h1 {
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 20px;
 }
 
-.about-text p {
+.home-text p {
     font-size: 30px;
     font-family: sans-serif;
 }
 
-.about-text button {
+.home-text button {
     font-size: 30px;
     padding: 10px;
     background-color: #2596be;
@@ -128,14 +134,14 @@ a:hover {
 
 }
 
-.about-text button:hover {
+.home-text button:hover {
     background-color: red;
     color: white;
     cursor: pointer;
     transition: 0.3s ease-in-out;
 }
 
-.about-section img {
+.home-section img {
     width: 300px;
     height: 450px;
     margin-right: 30px;
@@ -143,29 +149,37 @@ a:hover {
 
 }
 
+.menu-icon {
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+}
+
 
 /* HERO SECTION */
+
+/* left side  */
 
 .main-hero-container {
     background: linear-gradient(to right, #dbbdd3, #b7f4ff);
     height: 100vh;
-    display: flex; 
+    display: flex;
     justify-content: center;
-    align-items: center;  
+    align-items: center;
 }
 
 .hero-section {
+
+    scroll-padding-top: 80px;
     display: flex;
     max-width: 1000px;
     align-items: center;
-    /* justify-content: center; */
     background: #fff;
-    /* border: 3px solid red; */
     padding: 40px;
     border-radius: 20px;
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
     gap: 40px;
-  
+
 
 }
 
@@ -179,25 +193,73 @@ a:hover {
 }
 
 .social-icon {
-    margin-top: 15px;
+    margin-top: -15px;
 }
 
 
 .social-icon a {
     display: inline-block;
     font-size: 20px;
+    color: #6c10d4;
+}
+
+.social-icon a:hover {
+    color: rgb(226, 22, 209);
+    cursor: pointer;
 }
 
 
+/* right side  */
 
 
+.profile-info {
+    /* border: 3px solid red; */
+    max-width: 600px;
+    margin: 100px auto;
+    text-align: left;
+}
+
+.profile-info h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 20px;
+}
 
 
+.profile-info p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
 
 
+.btn {
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.btn button {
+    padding: 10px;
+    border: none;
+    background-color: #6c10d4;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn button:hover {
+    background-color: red;
+}
 
 
-
-
+.service-section {
+    background-color: lightgray;
+    margin-top: -100px;
+}
 
 /* RESPONSIVE  */
