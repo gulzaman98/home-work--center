@@ -34,41 +34,18 @@
             $("#fadeout").click(function(){
                 $("#para").fadeOut(1000)
             })
+
+               $("#fadetoggle").click(function(){
+                $("#para").fadeToggle(1000)
+            })
+
+
+                 $("#fadeto").click(function(){
+                $("#para").fadeTo(1000)
+            })
         })
     </script>
 
 </body>
 
 </html>
-
-
-<!-- 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fade Test</title>
-  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-</head>
-<body style="text-align:center; margin-top:50px;">
-
-  <button id="fadein">Fade In</button>
-  <button id="fadeout">Fade Out</button>
-
-  <p id="para" style="display:none; font-size:20px;">This is a fading paragraph 😎</p>
-
-  <script>
-    $(document).ready(function(){
-      $("#fadein").click(function(){
-        $("#para").fadeIn(1000);
-      });
-
-      $("#fadeout").click(function(){
-        $("#para").fadeOut(1000);
-      });
-    });
-  </script>
-
-</body>
-</html> -->
