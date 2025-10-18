@@ -31,16 +31,32 @@
 
 // Hover
 
-$(document).ready(function () {
-    $("p").hover(function () {
-        $(this).css("color", "red")
-    })
+// $(document).ready(function () {
+//     $("p").hover(function () {
+//         $(this).css("color", "red")
+//     })
 
-    $("#btn").hover(function () {
-        $("p").css({
-            "background-color": "red",
-            "color": "navy",
-            "font-size": "30px"
+//     $("#btn").hover(function () {
+//         $("p").css({
+//             "background-color": "red",
+//             "color": "navy",
+//             "font-size": "30px"
+//         })
+//     })
+// })
+
+
+
+// ON 
+
+$("p").on({
+    mouseenter : function(){
+        $(this).css({
+            "background-color": "black",
+            "color":"white"
         })
-    })
+    }
 })
+
+
+
