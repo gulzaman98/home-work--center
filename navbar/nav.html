@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
     <link rel="stylesheet" href="nav.css">
@@ -21,13 +22,13 @@
             <ul>
                 <li> <a href="">Home</a></li>
                 <li> <a href="#about">About</a></li>
-                <li> <a href="#">Process</a></li>
-                <li> <a href="#">Portfolio</a></li>
+                <li> <a href="#process">Process</a></li>
+                <li> <a href="#Portfolio">Portfolio</a></li>
                 <li> <a href="#">Blog</a></li>
                 <li> <a href="#">Service</a></li>
                 <li><button>Contact</button></li>
             </ul>
-            
+
         </div>
 
         <div class="menu-icon"><i class="fa fa-bars"></i></div>
@@ -35,6 +36,8 @@
     </div>
 
     <!-- Home section -->
+
+
 
     <div id="home" class="home-section">
         <div class="home-text">
@@ -101,13 +104,95 @@
     </div>
 
 
-
     <!-- Service section -->
 
-    <div class="service-section">
+    <div id="process" class="service-section">
+        <div class="text-section">
+            <h1>Work Process</h1>
+            <p>
+                My workflow combines creativity and technical precision to deliver high-quality digital experiences.
+                Each project follows a structured yet flexible process that ensures clarity, functionality, and
+                performance.
+                From idea to launch, I focus on building interfaces that are both user-friendly and visually appealing.
+            </p>
+            <p>
+                Here’s how I transform your ideas into fully functional digital solutions:
+            </p>
+        </div>
 
-        
+        <div class="card-container">
+            <div class="card">
+                <div class="icon"><i class="fa-solid fa-calendar-days"></i></div>
+                <h3>1. Research</h3>
+                <p>I explore project goals, user needs, and market insights to build a strong foundation for effective
+                    design.</p>
+            </div>
+            <div class="card">
+                <div class="icon"><i class="fa-solid fa-chart-line"></i></div>
+                <h3>2. Analyze</h3>
+                <p>I evaluate research insights to identify patterns, define core challenges, and create a clear
+                    strategy for design and development.</p>
+            </div>
+            <div class="card">
+                <div class="icon"><i class="fa-solid fa-pen-nib"></i></div>
+                <h3>3. Design</h3>
+                <p>I craft intuitive and visually engaging interfaces that blend creativity with functionality to
+                    deliver seamless user experiences.</p>
+            </div>
+            <div class="card">
+                <div class="icon"><i class="fa-solid fa-rocket"></i></div>
+                <h3>4. Launch</h3>
+                <p>I ensure a smooth launch by optimizing performance, testing usability, and delivering a polished
+                    final product ready for real users.</p>
+            </div>
 
+        </div>
+    </div>
+
+
+    <div id="Portfolio" class="portfolio-section">
+        <div class="portfolio-header">
+            <h1>My Portfolio</h1>
+            <p>Here are some of my recent projects showcasing creativity, functionality, and modern web design.</p>
+        </div>
+    </div>
+
+    <!-- project 1 -->
+
+    <div class="portfolio-container">
+        <div class="portfolio-card">
+            <a href="https://resturent-website-kappa.vercel.app/" target="_parent">
+                <img src="resturent img.png" alt="project1">
+                <div class="overlay">
+                    <h3>Food Website</h3>
+                    <p>Responsive restaurant landing page built with HTML, CSS & JS.</p>
+                </div>
+            </a>
+        </div>
+
+        <!-- project 2 -->
+
+            <div class="portfolio-card">
+            <a href="https://developer-landing-page-theta.vercel.app/" target="_parent">
+                <img src="developer landing page .png" alt="project2">
+                <div class="overlay">
+                    <h3>Developer Landing Page</h3>
+                    <p>Modern personal portfolio built using Html Css and Javascript.</p>
+                </div>
+            </a>
+        </div>
+
+              <!-- project 3 -->
+
+            <div class="portfolio-card">
+            <a href="https://digital-clock-wine-nine.vercel.app/" target="_parent">
+                <img src="digital clock .png" alt="project3">
+                <div class="overlay">
+                    <h3>Digital Clock</h3>
+                    <p>A real-time digital clock built with HTML, CSS, and JavaScript, displaying dynamic hours, minutes, and seconds.</p>
+                </div>
+            </a>
+        </div>
     </div>
 
     <script src="../Jquery/jquery-3.7.1.min.js"></script>
