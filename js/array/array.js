@@ -1,9 +1,13 @@
-let fruit = ["Mango","Apple","Banana","Orange",]
+let fruits = ["Mango","Apple","Banana","Orange",]
 
 // document.write(fruits[0], "<br>")
 // document.write(fruits[1] , "<br>")
 // document.write(fruits[2] , "<br>")
 // document.write(fruits[3] , "<br>")
+
+// document.write(fruits.join("<br>"))
+fruits.push("PineApple")
+document.write(fruits.join("<br>"))
 
 
 
@@ -18,10 +22,6 @@ let fruit = ["Mango","Apple","Banana","Orange",]
 // let fruit = ["Mango" , "Apple" , "Banana" , "Orange" , ]
 
 // fruit.push("Pine Apple")
-
-
-
-
 
 
 // function add (a,b){
@@ -41,18 +41,18 @@ let fruit = ["Mango","Apple","Banana","Orange",]
 //  LOP FOR LOOP
 
 
-let fruits = [
-  "Mango","Apple","Banana","Orange","Pineapple",
-  "Grapes","Strawberry","Watermelon","Papaya","Kiwi",
-  "Guava","Cherry","Peach","Pear","Plum",
-  "Apricot","Pomegranate","Coconut","Litchi","Fig",
-  "Mulberry","Raspberry","Blueberry","Blackberry","Dragonfruit",
-  "Passionfruit","Avocado","Melon","Cantaloupe","Tangerine",
-  "Cranberry","Olive","Date","Jackfruit","Starfruit",
-  "Custard Apple","Longan","Gooseberry","Persimmon","Durian",
-  "Rambutan","Quince","Sapodilla","Breadfruit","Pomelo",
-  "Jujube","Loquat","Mandarin","Nectarine","Mangosteen"
-]
+// let fruits = [
+//   "Mango","Apple","Banana","Orange","Pineapple",
+//   "Grapes","Strawberry","Watermelon","Papaya","Kiwi",
+//   "Guava","Cherry","Peach","Pear","Plum",
+//   "Apricot","Pomegranate","Coconut","Litchi","Fig",
+//   "Mulberry","Raspberry","Blueberry","Blackberry","Dragonfruit",
+//   "Passionfruit","Avocado","Melon","Cantaloupe","Tangerine",
+//   "Cranberry","Olive","Date","Jackfruit","Starfruit",
+//   "Custard Apple","Longan","Gooseberry","Persimmon","Durian",
+//   "Rambutan","Quince","Sapodilla","Breadfruit","Pomelo",
+//   "Jujube","Loquat","Mandarin","Nectarine","Mangosteen"
+// ]
 
 // // for (let i = 0 ; i < fruits.length ; i++){
 // //     document.write((i+1)," :  " , fruits[i] , "<br>")
@@ -60,9 +60,9 @@ let fruits = [
 
 
 
-for (let i = 0 ; i < fruits.length ; i++){
-  document.write((i+10), " : " , fruits[i] , "<br>")
-}
+// for (let i = 0 ; i < fruits.length ; i++){
+//   document.write((i+10), " : " , fruits[i] , "<br>")
+// }
 
 
 
@@ -202,7 +202,8 @@ for (let i = 0 ; i < fruits.length ; i++){
 
 
 
-// let students = [
+// let students =  [
+
 //   ["Ali", " ", 15, " ", "9th", " ", "A"],
 //   ["Ahmed", " ", 16, " ", "10th", " ", "B"],
 //   ["Sara", " ", 14, " ", "8th", " ", "A"],
@@ -223,7 +224,10 @@ for (let i = 0 ; i < fruits.length ; i++){
 //   ["Iqra", " ", 14, " ", "8th", " ", "A"],
 //   ["Shahid", " ", 16, " ", "10th", " ", "C"],
 //   ["Maryam", " ", 17, " ", "11th", " ", "A+"]
+
 // ]
+
+
 
 // document.write("<table border='1' cellspacing='0' cellpadding='5>'");
 
@@ -259,9 +263,6 @@ for (let i = 0 ; i < fruits.length ; i++){
 // }
 
 // document.write("</table>")
-
-
-
 
 
 
