@@ -68,7 +68,7 @@ for(let i = 0; i < maxAttempt; i++){
         alert("Incorrect Password" , (maxAttempt - (i+1)));
     }
 
-    if(!sucess){
+    if(!success){
         alert("Account Locked")
     } 
 }

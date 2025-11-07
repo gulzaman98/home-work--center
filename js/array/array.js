@@ -1,4 +1,4 @@
-let fruits = ["Mango","Apple","Banana","Orange",]
+// let fruits = ["Mango","Apple","Banana","Orange",]
 
 // document.write(fruits[0], "<br>")
 // document.write(fruits[1] , "<br>")
@@ -6,22 +6,11 @@ let fruits = ["Mango","Apple","Banana","Orange",]
 // document.write(fruits[3] , "<br>")
 
 // document.write(fruits.join("<br>"))
-fruits.push("PineApple")
-document.write(fruits.join("<br>"))
+// fruits.push("PineApple")
+// document.write(fruits.join("<br>"))
 
 
 
-
-
-
-// document.write(fruits.length)
-// document.write(fruits.push("pine Apple"),"<br>")
-// console.log(fruits)
-// document.write(fruits.length ,"<br>")
-
-// let fruit = ["Mango" , "Apple" , "Banana" , "Orange" , ]
-
-// fruit.push("Pine Apple")
 
 
 // function add (a,b){
@@ -34,6 +23,16 @@ document.write(fruits.join("<br>"))
 // const add = (a,b)=> a+b;
 
 // document.write(`5 + 3 = ${add(5,3)}`)
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -60,9 +59,15 @@ document.write(fruits.join("<br>"))
 
 
 
-// for (let i = 0 ; i < fruits.length ; i++){
-//   document.write((i+10), " : " , fruits[i] , "<br>")
-// }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -83,6 +88,16 @@ document.write(fruits.join("<br>"))
 // cell1.innerHTML = i + 1 ;
 // cell2.innerHTML = fruits[i]
 // }
+
+
+
+
+
+
+
+
+
+
 
 // let courses = [
 //   ["HTML","CSS" ,"JS" ,"BOTSTRAP" ,"JQUERY"],
@@ -116,13 +131,16 @@ document.write(fruits.join("<br>"))
 
 
 
+
+
+
 // MUlti-Dimensional Array
 
-// let courses = [
-//   ["HTML","CSS" ,"JS" ,"BOTSTRAP" ,"JQUERY"],
-//   ["HTML1","CSS1" ,"JS1" ,"BOTSTRAP1" ,"JQUERY1"],
-//   ["HTML2","CSS2" ,"JS2" ,"BOTSTRAP2" ,"JQUERY2"],
-// ]
+let courses = [
+  ["HTML","CSS" ,"JS" ,"BOTSTRAP" ,"JQUERY"],
+  ["HTML1","CSS1" ,"JS1" ,"BOTSTRAP1" ,"JQUERY1"],
+  ["HTML2","CSS2" ,"JS2" ,"BOTSTRAP2" ,"JQUERY2"],
+]
 
 // document.write(courses[0][3] , "<br>" , courses[1][2],"<br>")
 // for(let i = 0 ; i < courses.length ; i++){
