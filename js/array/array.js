@@ -5,31 +5,34 @@
 // document.write(fruits[2] , "<br>")
 // document.write(fruits[3] , "<br>")
 
-
-// // document.write(fruits.length)
-// document.write(fruits.push("pine Apple"),"<br>")
-// // console.log(fruits)
-// document.write(fruits.length ,"<br>")
-
-// let fruit = ["Mango" , "Apple" , "Banana" , "Orange" , ]
-
-// fruit.push("Pine Apple")
+// document.write(fruits.join("<br>"))
+// fruits.push("PineApple")
+// document.write(fruits.join("<br>"))
 
 
 
 
 
+// function add (a,b){
+//   return a + b;
+// }
 
-function add (a,b){
-  return a + b;
-}
-
-document.write( "5 + 3  = " + add(5,3))
+// document.write( "5 + 3  = " + add(5,3))
 
 
 // const add = (a,b)=> a+b;
 
 // document.write(`5 + 3 = ${add(5,3)}`)
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -68,6 +71,9 @@ let fruits = [
 
 
 
+
+
+
 // //  ARRAY BY HTML TABLE 
 
  
@@ -82,6 +88,16 @@ let fruits = [
 // cell1.innerHTML = i + 1 ;
 // cell2.innerHTML = fruits[i]
 // }
+
+
+
+
+
+
+
+
+
+
 
 // let courses = [
 //   ["HTML","CSS" ,"JS" ,"BOTSTRAP" ,"JQUERY"],
@@ -115,13 +131,16 @@ let fruits = [
 
 
 
+
+
+
 // MUlti-Dimensional Array
 
-// let courses = [
-//   ["HTML","CSS" ,"JS" ,"BOTSTRAP" ,"JQUERY"],
-//   ["HTML1","CSS1" ,"JS1" ,"BOTSTRAP1" ,"JQUERY1"],
-//   ["HTML2","CSS2" ,"JS2" ,"BOTSTRAP2" ,"JQUERY2"],
-// ]
+let courses = [
+  ["HTML","CSS" ,"JS" ,"BOTSTRAP" ,"JQUERY"],
+  ["HTML1","CSS1" ,"JS1" ,"BOTSTRAP1" ,"JQUERY1"],
+  ["HTML2","CSS2" ,"JS2" ,"BOTSTRAP2" ,"JQUERY2"],
+]
 
 // document.write(courses[0][3] , "<br>" , courses[1][2],"<br>")
 // for(let i = 0 ; i < courses.length ; i++){
@@ -201,7 +220,8 @@ let fruits = [
 
 
 
-// let students = [
+// let students =  [
+
 //   ["Ali", " ", 15, " ", "9th", " ", "A"],
 //   ["Ahmed", " ", 16, " ", "10th", " ", "B"],
 //   ["Sara", " ", 14, " ", "8th", " ", "A"],
@@ -222,6 +242,7 @@ let fruits = [
 //   ["Iqra", " ", 14, " ", "8th", " ", "A"],
 //   ["Shahid", " ", 16, " ", "10th", " ", "C"],
 //   ["Maryam", " ", 17, " ", "11th", " ", "A+"]
+
 // ]
 
 
@@ -260,9 +281,6 @@ let fruits = [
 // }
 
 // document.write("</table>")
-
-
-
 
 
 

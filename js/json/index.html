@@ -10,12 +10,12 @@
 </head>
 
 <body>
-    <!-- 
+
     <div class="main" id="row">
-       
+
         <div id="output"></div>
 
-    </div> -->
+    </div>
 
     <!-- Show hide password -->
 
@@ -28,40 +28,45 @@
 
         //    Data Fetch in data json file with cards 
 
-        // let html = "";
-        // fetch('data2.json')
-        //     .then(response => response.json())
-        //     .then(json => {
+        let html = "";
+        fetch('data2.json')
+            .then(response => response.json())
+            .then(json => {
 
-        //         for (data of json) {
-        //             html += `
-        //             <div class="box">
-        //     <div class="card">
-        //         <img src="/images/car2.jpg" alt=""">
-        //         <h3>car title: ${data.car_title} </h3>
-        //         <h3>car price: ${data.car_price} </h3> 
-        //     </div>
-        // </div>
-        //             `
+                for (data of json) {
+                    html += `
+                    <div class="box">
+            <div class="card">
+                <img src="/images/car2.jpg" alt=""">
+                <h3>car title: ${data.car_title} </h3>
+                <h3>car price: ${data.car_price} </h3> 
+            </div>
+        </div>
+                    `
 
-        //         }
+                }
 
-        //         document.getElementById("row").innerHTML = html
-        //     })  
+                document.getElementById("row").innerHTML = html
+            })
+
+            
+
+
+
 
         // Data Fetch single object in data json file
 
-        // fetch('data.json')
-        // .then(response => response.json())
-        // .then( data => {
-        //     let student = "";
+        fetch('data.json')
+            .then(response => response.json())
+            .then(data => {
+                let student = "";
 
-        //     for(data of data){
-        //         student += `<p> Name : ${data.Name} , Age : ${data.Age} , Roll No : ${data.Roll_No}</p> `
-        //     }
+                for (data of data) {
+                    student += `<p> Name : ${data.Name} , Age : ${data.Age} , Roll No : ${data.Roll_No}</p> `
+                }
 
-        //     document.getElementById("output").innerHTML = student
-        // })
+                document.getElementById("output").innerHTML = student
+            })
 
         // Show hide password with icon
 

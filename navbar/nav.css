@@ -1,8 +1,19 @@
-body {
+body p li span {
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
 
     /* Navbar */
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container {
@@ -170,7 +181,7 @@ a:hover {
 
 .hero-section {
 
-    scroll-padding-top: 80px;
+    scroll-padding-top: 50px;
     display: flex;
     max-width: 1000px;
     align-items: center;
@@ -198,11 +209,13 @@ a:hover {
     display: inline-block;
     font-size: 20px;
     color: #6c10d4;
+    transition: all 0.3s ease;
 }
 
 .social-icon a:hover {
     color: rgb(226, 22, 209);
     cursor: pointer;
+    transform: translateY(-10px);
 }
 
 
@@ -254,9 +267,123 @@ a:hover {
 }
 
 
-.service-section {
-    background-color: lightgray;
+/* SERVICE SECTION */
+
+.proces-section {
+    background-color: rgb(235, 234, 234);
     margin-top: -100px;
+    padding: 120px 10% 80px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.text-section {
+    max-width: 500px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    justify-content: center;
+}
+
+.card {
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    text-align: left;
+    width: 200px;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+
+
+/* portfolio section */
+
+.portfolio-section {
+    padding: 100px 50px;
+    text-align: center;
+}
+
+.portfolio-header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.portfolio-header p {
+    font-size: 20px;
+    max-width: 700px;
+    margin: 0 auto 50px auto;
+}
+
+
+.portfolio-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    justify-items: center;
+}
+
+.portfolio-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    width: 80%;
+    height: 80%;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+    transition: transform 0.4s ease;
+}
+
+.portfolio-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: transform 0.4s ease;
+}
+
+.portfolio-card :hover img {
+    transform: scale(1.1);
+}
+
+
+/* SERVICE_SECTION */
+
+.service-section {
+    background-color: rgb(238, 238, 238);
+    padding: 80px 0px;
+    /* border: 3px solid red; */
+}
+
+.service-container{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    display: 3px solid red;
+}
+
+
+.service-left-section {
+    flex: 1;
+    min-width: 500px;
+    max-width: 40px;
+}
+
+.service-left-section h2 {
+    font-size: 32px;
+    font-weight: 700;
+
 }
 
 /* RESPONSIVE  */

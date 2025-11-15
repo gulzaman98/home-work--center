@@ -1,15 +1,15 @@
 $(document).ready(function(){
     $("#hide").click(function(){
         $("#para").hide(1000)
-
     })
 })
 
 $(document).ready(function(){
-      $("#show").click(function(){
+    $("#show").click(function(){
         $("#para").show(1000)
     })
 })
+
 
 
 $(document).ready(function(){

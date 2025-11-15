@@ -16,10 +16,6 @@
 
 
 
-
-
-
-
 // let num1 = +prompt("Enter your first number")
 // let num2 = +prompt("Enter your second number")
 // let opr = prompt("Select operator")
@@ -42,7 +38,7 @@
 
 // let name = prompt("Enter your name")
 // if (name == "gulzaman") {
-    
+
 //     let email = prompt("Enter your email")
 //     if (email == "gulzamanarain234@gmail.com") {
 //         let password = prompt(12345)
@@ -59,6 +55,10 @@
 // } else {
 //     document.write("Wrong name")
 // }
+
+
+
+
 
 
 
@@ -87,6 +87,13 @@
 
 
 
+
+
+
+
+
+
+
 // let num = +prompt("Enter your number")
 
 // if(num >=10){
@@ -96,6 +103,17 @@
 // else{
 //     document.write("number is less than 10")
 // }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -115,21 +133,39 @@
 
 
 
-let marks = +prompt("Enter your marks")
 
-if (marks >= 90){
-    document.write("Grade A+")
-}
-else if(marks >= 80){
-    document.write("Grade A")
-}
 
-else if(marks >= 70){
-    document.write("Grade B")
-}
-else{
-    document.write("<span style='color:red;'>Fail</span>")
-}
+
+
+
+
+
+
+
+
+// let marks = +prompt("Enter your marks")
+
+// if (marks >= 90) {
+//     document.write("Grade A+")
+// }
+// else if (marks >= 80) {
+//     document.write("Grade A")
+// }
+
+// else if (marks >= 70) {
+//     document.write("Grade B")
+// }
+// else {
+//     document.write("<span style='color:red;'>Fail</span>")
+// }
+
+
+
+
+
+
+
+
 
 
 
@@ -147,6 +183,16 @@ else{
 // else if(num == 0){
 //     document.write("Zero number ")
 // }
+
+
+
+
+
+
+
+
+
+
 
 
 

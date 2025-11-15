@@ -21,7 +21,7 @@ $(document).ready(function(){
     
     $("#email").keyup(function(){
         let name = $(this).val()
-        let emailRe = /^[a-z0-9\]
+        let emailRe = /^[a-z0-9]/
 
         if(!emailRe.test(name)){
             $(this).next("span").show().text("Only Allow Alphabates").css("color","red")

@@ -1,0 +1,28 @@
+[
+   {
+    "car" : 1 ,
+    "model" : "BMW",
+    "year" : 2019,
+    "price" : 43546576,
+     "image" : "bmw.jfif"
+   },
+
+
+   {
+      "car" : 2 ,
+    "model" : "Rolls Roys",
+    "year" : 2019,
+    "price" : 4354657656,
+    "image" : "rolls roys.jfif"
+   },
+
+
+   {
+    "car" : 3 ,
+    "model" : "Prado",
+    "year" : 2019,
+    "price" : 435465476,
+    "image" : "prado.jfif"
+
+   }
+]
