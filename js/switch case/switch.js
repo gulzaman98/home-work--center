@@ -47,7 +47,6 @@ switch (group){
     case 1:
         document.write("<h2 class=monday> Ticket Price: 200 PKR (Child age)")
         break;
-
         case 2:
             document.write("<h2 class=tuesday> Ticket price : 500 PKR (Teen Ager)")
             break;
