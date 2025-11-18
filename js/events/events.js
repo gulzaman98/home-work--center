@@ -10,6 +10,10 @@ let para = document.getElementById("para")
 
 
 
+
+
+
+
 btn.addEventListener("click" , ()=>{
     console.log("phla listener run hua");
     document.getElementById("para").innerHTML = "Hello world"
